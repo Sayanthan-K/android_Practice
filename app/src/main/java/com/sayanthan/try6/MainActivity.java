@@ -26,12 +26,12 @@ public class MainActivity extends AppCompatActivity {
         btn=findViewById(R.id.button);
 
         iv=findViewById(R.id.imageView);
-
-        Picasso.get()
-                .load("http://i.imgur.com/DvpvklR.png")
-                .resize(50, 50)
-                .centerCrop()
-                .into(iv);
+//
+//        Picasso.get()
+//                .load("http://i.imgur.com/DvpvklR.png")
+//                .resize(50, 50)
+//                .centerCrop()
+//                .into(iv);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
